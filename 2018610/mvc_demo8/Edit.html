@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+<table border="1" >
+    <caption>添加数据</caption>
+    <form method="post" name="form1" action="?a=EditForm">
+        <tr>
+            <td>
+                用户名：</td>
+            <td>
+                <input type="text" name="user"   value="<?php echo $date['username']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td>
+                <input type="password" name="pwd" value="<?php echo $date['pwd']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>年龄：</td>
+            <td>
+                <input type="text" name="age" value="<?php echo $date['age']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>学历：</td>
+            <td>
+                <select name="Education">
+                    <option  value="1" <?php if($date['Education'] == 初中){echo "selected" ;} ?>> 初中</option>
+                    <option  value="2" <?php if($date['Education'] == 高中){echo "selected" ;} ?>>高中</option>
+                    <option  value="3" <?php if($date['Education'] == 大专){echo "selected" ;} ?>>大专</option>
+                    <option  value="4" <?php if($date['Education'] == 本科){echo "selected" ;} ?>>本科</option>
+                    <option  value="5" <?php if($date['Education'] == 硕士){echo "selected" ;} ?>>硕士</option>
+                    <option  value="6" <?php if($date['Education'] == 博士){echo "selected" ;} ?>>博士</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>兴趣</td>
+            <td>
+                <input type="checkbox" name="Interest[]" value="1" <?php if(in_array(排球,$aihao)){echo "checked" ;} ?> >排球
+                <input type="checkbox" name="Interest[]" value="2" <?php if(in_array(篮球,$aihao)){echo "checked" ;} ?>>篮球
+                <input type="checkbox" name="Interest[]" value="4" <?php if(in_array(足球,$aihao)){echo "checked" ;} ?>>足球
+                <input type="checkbox" name="Interest[]" value="8" <?php if(in_array(中国足球,$aihao)){echo "checked" ;} ?>>中国足球
+                <input type="checkbox" name="Interest[]" value="16" <?php if(in_array(地球,$aihao)){echo "checked" ;} ?>>地球
+        </tr>
+        <tr>
+            <td>来自：</td>
+            <td>
+                <input type="radio" name="fr" value="1" <?php if($date['fr'] == 东北){echo "checked" ;} ?>>东北
+                <input type="radio" name="fr" value="2" <?php if($date['fr'] == 华北){echo "checked" ;} ?>>华北
+                <input type="radio" name="fr" value="3" <?php if($date['fr'] == 西北){echo "checked" ;} ?>>西北
+                <input type="radio" name="fr" value="4" <?php if($date['fr'] == 华东){echo "checked" ;} ?>>华东
+                <input type="radio" name="fr" value="5" <?php if($date['fr'] == 华南){echo "checked" ;} ?>>华南
+                <input type="radio" name="fr" value="6" <?php if($date['fr'] == 华西){echo "checked" ;} ?>>华西
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="OK" style="width: 100%">
+                <input type="hidden" name="ac" value="tijiao">
+                <input type="hidden" name="id" value="<?php echo $date['id']; ?>">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>

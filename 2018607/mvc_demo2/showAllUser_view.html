@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>showAllUser_view</title>
+    <style>
+        .t1{color: red}
+        .p{background: lime}
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>用户ID</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>学历</th>
+        <th>爱好</th>
+        <th>来自</th>
+        <th>创建时间</th>
+    </tr>
+    <?php
+	foreach( $data1 as  $key =>$rec )
+    {
+    ?>
+    <tr>
+        <td><?php echo $rec['id'] ?></td>
+        <td class="t1" align="center"><?php echo $rec['username'] ?></td>
+        <td><?php echo $rec['age'] ?></td>
+        <td class="p"><?php echo $rec['Education'] ?></td>
+        <td><?php echo $rec['Interest'] ?></td>
+        <td><?php echo $rec['fr'] ?></td>
+        <td><?php echo $rec['addate'] ?></td>
+    </tr>
+   <?php } ?>
+
+</table>
+当前用户总数：<?php echo $date2 ?>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>showAllUser_view</title>
+    <style>
+        .t1{color: red}
+        .p{background: lime}
+    </style>
+</head>
+<body>
+<a href="ProductController.class.php?a=ShowALlProduct">产品列表</a>
+<a href="UserController.class.php">用户列表</a>
+<hr />
+<a href="?act=ShowProductForm">添加产品信息</a>
+<table border="1">
+    <tr>
+        <th>产品名</th>
+        <th>品牌编码</th>
+        <th>价格</th>
+        <th>品牌</th>
+        <th>产地</th>
+        <th>操作</th>
+    </tr>
+    <?php foreach($date as $key=>$rec) { ?>
+    <tr>
+        <td><?php echo $rec['pro_name'] ?></td>
+        <td class="t1" align="center"><?php echo $rec['protype_name'] ?></td>
+        <td><?php echo $rec['price'] ?></td>
+        <td class="p"><?php echo $rec['pinpai'] ?></td>
+        <td><?php echo $rec['chandi'] ?></td>
+        <td>
+            <a href="?a=Del&id=<?php echo $rec['pro_id']; ?>" onclick='return queren'>删除</a>
+        </td>
+    </tr>
+    <?php } ?>
+
+</table>
+
+
+</body>
+</html>
+<script>
+    function queren() {
+        return window.confirm("确认吗？");
+    }
+</script>
