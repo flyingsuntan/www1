@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * Created by PhpStorm.
  * User: Administrator
@@ -17,7 +17,11 @@ class AdminController extends BaseController {
         $model = ModelFactory::M('AdminModel');
         $result = $model->CheckAdmin($user,$pass);
         if($result === true){
-            echo "登录成功";
+            //echo "登录成功";
+            //分配登录表示
+            define(IS_LOGIN , 'yes');
+            //跳转到后台首页
+            header("Location:index.php?p=back&c=Manage&a=Index");
         }
         else {
             $this->GotoUrl("登录失败",'?p=back&c=Admin&a=Login',2);

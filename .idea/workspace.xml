@@ -2,96 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23509379-3459-4843-90b1-41fa3b06c7ff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2018613/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Views/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Controllers/ProductController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Controllers/UserController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Models/ProductModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Models/UserModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/Edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/Product_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/addProduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/addUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/showAllUser_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/front/Views/userInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Framework/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Framework/ModelFactory.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Framework/MySQLDB.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/ajax_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/area_link.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/arrow_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/arrow_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/bg_repx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/book_open.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/btn_close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/btn_drop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/btn_maximize.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/btn_minimize.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/button_bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/MSColumn3D.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/MSLine.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/ScrollColumn2D.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/bar.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/column.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/column3d.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/line.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/pie3d.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/charts/pipe.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/color_selecter.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/confirm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/ecshop_logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/empty.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/filecheck.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_account.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_copy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_docs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_drop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_edit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_js.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_output.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_priv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_search.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_send_bonus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_title.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_trash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/icon_view.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/information.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/login_line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/menu_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/menu_minus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/menu_plus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/no.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/notice.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/online.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/online.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/picflag.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/picnoflag.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/sort_asc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/sort_desc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/stepnum.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/th_bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/top_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/warning.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/warning_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/images/yes.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/styles/general.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/pdo_prepare.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018613/pdo_statement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018612/PDO_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/2018612/PDO_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,17 +34,53 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="950">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLDB.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/MySQLDB.class.php">
+      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -159,9 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2018610/mvc_demo7/BaseController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo7/UserController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo7/ProductController.class.php" />
         <option value="$PROJECT_DIR$/2018610/mvc_demo8/UserModel.class.php" />
         <option value="$PROJECT_DIR$/2018610/mvc_demo8/BaseController.class.php" />
         <option value="$PROJECT_DIR$/2018610/mvc_demo8/UserController.class.php" />
@@ -210,6 +157,9 @@
         <option value="$PROJECT_DIR$/2018613/pdo_prepare.php" />
         <option value="$PROJECT_DIR$/2018613/1.php" />
         <option value="$PROJECT_DIR$/2018613/mvc_demo16/Framework/MySQLDB.class.php" />
+        <option value="$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php" />
+        <option value="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" />
       </list>
     </option>
   </component>
@@ -231,8 +181,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
-    <option name="y" value="118" />
+    <option name="x" value="541" />
+    <option name="y" value="114" />
     <option name="width" value="1400" />
     <option name="height" value="963" />
   </component>
@@ -267,7 +217,33 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="2018613" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_demo16" type="462c0819:PsiDirectoryNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="2018613" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc_demo16" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="2018613" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc_demo16" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="2018613" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc_demo16" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,16 +394,15 @@
       <workItem from="1528859498420" duration="3065000" />
       <workItem from="1528862717498" duration="4612000" />
       <workItem from="1528874721957" duration="525000" />
-      <workItem from="1528875257886" duration="1072000" />
+      <workItem from="1528875257886" duration="6515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253884000" />
+    <option name="totallyTimeSpent" value="259327000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="118" width="1400" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="541" y="114" width="1400" height="963" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="15" />
@@ -476,37 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Views/addProduct.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Views/Product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Models/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Framework/BaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Views/Product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Controllers/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -715,13 +659,6 @@
         <state relative-caret-position="-1140" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/pdo_statement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018613/pdo_error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -760,9 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018610/mvc_demo7/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,17 +707,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/MySQLDB.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/pdo_statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Views/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
