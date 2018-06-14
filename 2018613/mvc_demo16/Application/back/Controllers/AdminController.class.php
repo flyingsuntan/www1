@@ -19,7 +19,7 @@ class AdminController extends BaseController {
         if($result === true){
             //echo "登录成功";
             //分配登录表示
-            define(IS_LOGIN , 'yes');
+            setcookie('is_login','yes',time()+600);
             //跳转到后台首页
             header("Location:index.php?p=back&c=Manage&a=Index");
         }

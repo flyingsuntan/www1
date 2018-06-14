@@ -12,7 +12,7 @@ class ManageController extends BaseController{
      * */
     public function IndexAction(){
     //提示
-        if(!isset(IS_LOGIN)){
+        if($_COOKIE['is_login'] !== 'yes'){
             header("Location:index.php?p=back&c=Admin&a=Login");die;
         }else{
         echo "这里是后台首页！不久会被更好的实现";
