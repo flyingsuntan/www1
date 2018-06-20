@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23509379-3459-4843-90b1-41fa3b06c7ff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2018614/cookie_get.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018614/cookie_set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018615/session_get.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018615/session_set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_db_gc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_db_get.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_db_set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_destroy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018616/session_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/drag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/PlatformController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/mvc_demo18/Framework/session_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018619/session_no_cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,80 +44,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie_get.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018614/cookie_get.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Framework/BaseController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie_set.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018614/cookie_set.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,37 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2018610/mvc_demo8/UserController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo8/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/index.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/UserController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/addProduct.html" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/addUser.html" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/Edit.html" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/userInfo.html" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/Product_list.html" />
-        <option value="$PROJECT_DIR$/2018610/mvc_demo9/showAllUser_view.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Models/ProductModel.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/index.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Controllers/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Models/UserModel.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Controllers/UserController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Views/addProduct.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Views/Product_list.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo10/Views/showAllUser_view.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Controllers/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Controllers/UserController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Views/Product_list.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/back/AdminController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Models/AdminModel.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Controllers/AdminController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/index.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Views/Login.html" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo12/index.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Controllers/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo12/Application/back/Controllers/AdminController.class.php" />
-        <option value="$PROJECT_DIR$/2018611/mvc_demo13/index.php" />
         <option value="$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Controllers/UserController.class.php" />
         <option value="$PROJECT_DIR$/2018611/mvc_demo13/Application/front/Controllers/UserController.class.php" />
         <option value="$PROJECT_DIR$/2018612/mvc_demo15/Application/back/Views/Login.html" />
@@ -179,6 +88,37 @@
         <option value="$PROJECT_DIR$/2018614/cookie_set.php" />
         <option value="$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php" />
         <option value="$PROJECT_DIR$/2018614/cookie_get.php" />
+        <option value="$PROJECT_DIR$/2018615/session.php" />
+        <option value="$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Controllers/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Controllers/ManageController.class.php" />
+        <option value="$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Models/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/2018615/session_get.php" />
+        <option value="$PROJECT_DIR$/2018615/session_set.php" />
+        <option value="$PROJECT_DIR$/2018616/session_test.php" />
+        <option value="$PROJECT_DIR$/2018616/session_set.php" />
+        <option value="$PROJECT_DIR$/2018616/session_db_get.php" />
+        <option value="$PROJECT_DIR$/2018616/session_destroy.php" />
+        <option value="$PROJECT_DIR$/2018616/session_db_gc.php" />
+        <option value="$PROJECT_DIR$/2018616/session_db.php" />
+        <option value="$PROJECT_DIR$/2018619/session_no_cookie.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/index.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Controllers/ManageController.class.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/top.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/menu.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/main.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/drag.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/platformController.class.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/index.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/top.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/menu.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/drag.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/main.html" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Framework/session_db.php" />
+        <option value="$PROJECT_DIR$/2018616/session_db_set.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/ManageController.class.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/PlatformController.class.php" />
+        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Models/AdminModel.class.php" />
       </list>
     </option>
   </component>
@@ -199,9 +139,9 @@
       <path value="$PROJECT_DIR$/../php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="496" />
-    <option name="y" value="252" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1195" />
+    <option name="y" value="102" />
     <option name="width" value="1400" />
     <option name="height" value="963" />
   </component>
@@ -218,11 +158,6 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="2018614" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,16 +176,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\2018611\mvc_demo11\Application\back\Controllers" />
+      <recent name="E:\wamp\www\2018605" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\2018619\mvc_demo18\Framework" />
       <recent name="E:\xampp\php\www\2018613" />
       <recent name="E:\wamp\www\2018611" />
       <recent name="E:\wamp\www\2018610" />
       <recent name="E:\wamp\www\2018608\mvc_demo6" />
-      <recent name="E:\wamp\www\2018608" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wamp\www\2018611\mvc_demo11\Application\back\Controllers" />
-      <recent name="E:\wamp\www\2018605" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,17 +311,20 @@
       <workItem from="1528874721957" duration="525000" />
       <workItem from="1528875257886" duration="6515000" />
       <workItem from="1528961147078" duration="3836000" />
+      <workItem from="1529040553293" duration="9947000" />
+      <workItem from="1529129332495" duration="10220000" />
+      <workItem from="1529373893064" duration="16003000" />
+      <workItem from="1529462558324" duration="715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263163000" />
+    <option name="totallyTimeSpent" value="300048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="499" width="1400" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="753" y="135" width="1400" height="963" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28955224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3074627" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="15" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -433,238 +371,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/back/Views/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Controllers/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Controllers/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Framework/BaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Views/userInfo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Views/showAllUser_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Controllers/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Application/back/Controllers/AdminController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo11/Application/front/Views/Edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo13/Framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo12/Application/front/Controllers/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo13/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo13/Application/back/Views/Login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo13/Application/front/Controllers/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Framework/BaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Application/back/Views/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Application/back/Controllers/AdminController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Application/back/Models/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Application/front/Models/ProductModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Application/front/Controllers/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="38" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Models/ProductModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Controllers/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Framework/BaseController.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Framework/BaseModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Framework/ModelFactory.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo10/Framework/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/PDO_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018610/mvc_demo8/MySQLDB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/pdo_error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/pdo_prepare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018611/mvc_demo14/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/Framework/BaseModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018612/mvc_demo15/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018610/mvc_demo7/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -689,20 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Views/Login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -710,17 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="760">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -733,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="399">
           <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
@@ -745,10 +430,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="597" column="9" selection-start-line="597" selection-start-column="9" selection-end-line="597" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2018614/cookie_set.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Controllers/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/ManageModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018613/mvc_demo16/Application/back/Models/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Views/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Models/ManageModel.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Controllers/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Controllers/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/mvc_demo16/Application/back/Models/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/session_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018615/session_set.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_db_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_destroy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_db_gc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/session_no_cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Models/ManageModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/drag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Controllers/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Framework/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Models/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3616">
+          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/drag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="111" column="60" lean-forward="true" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Models/ManageModel.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018616/session_db_set.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Framework/session_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Models/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/PlatformController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/ManageController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
