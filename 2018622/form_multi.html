@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<form action="upload_multi.php" method="POST" enctype="multipart/form-data">
+    商品名：<input type="text" name="goods_name"><br />
+   <!-- 商品图片：<input type="file" name="goods_image"><br />
+    用户头像：<input type="file" name="user_logo"><br />
+    品牌图片：<input type="file" name="brand_image"><br />-->
+
+    商品图片一：<input type="file" name="goods_image[]"><br />
+    商品图片二：<input type="file" name="goods_image[]"><br />
+    商品图片三：<input type="file" name="goods_image[]"><br />
+    <input type="submit">
+</form>
+</body>
+</html>
