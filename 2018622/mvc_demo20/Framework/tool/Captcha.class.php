@@ -66,6 +66,9 @@ class Captcha
         $x = ($image_w-$str_w)/2;
         $y = ($image_h-$font_h)/2;
         imagestring($image,$font,$x,$y,$code,$str_color);
+        //不要缓存验证码
+        $expires = gmdate('D,d M Y H:i:s',time()+3 . 'GMT');
+        header('Expires:' . $expires);
 
         //输出
         ob_clean();

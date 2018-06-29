@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23509379-3459-4843-90b1-41fa3b06c7ff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2018623/digui_dir_func.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018623/dir_func.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018623/dir_remove.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018623/file_func.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018623/file_handle_func.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018623/file_handle_func_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/down.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/file1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/file2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/file_mode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/file_pos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/language/ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/language/zh_CN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/respo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018624/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/shopcz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/application/controllers/admin/IndexController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/framework/core/Controller.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcz/framework/core/Framework.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018622/mvc_demo20/Framework/tool/Captcha.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/2018622/mvc_demo20/Framework/tool/Captcha.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,22 +53,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="file_handle_func_1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018623/file_handle_func_1.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2018623/data.txt">
+      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/BaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BaseModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/BaseModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
+            <state relative-caret-position="-57" />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelFactory.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/ModelFactory.class.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -77,21 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2018616/session_db.php" />
-        <option value="$PROJECT_DIR$/2018619/session_no_cookie.php" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/index.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Controllers/ManageController.class.php" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/top.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/menu.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/main.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo17/Application/back/Views/drag.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/platformController.class.php" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/index.php" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/top.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/menu.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/drag.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Views/main.html" />
-        <option value="$PROJECT_DIR$/2018619/mvc_demo18/Framework/session_db.php" />
         <option value="$PROJECT_DIR$/2018616/session_db_set.php" />
         <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/AdminController.class.php" />
         <option value="$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/ManageController.class.php" />
@@ -128,6 +140,21 @@
         <option value="$PROJECT_DIR$/2018623/file_handle_func.php" />
         <option value="$PROJECT_DIR$/2018623/data.txt" />
         <option value="$PROJECT_DIR$/2018623/file_handle_func_1.php" />
+        <option value="$PROJECT_DIR$/2018624/file_pos.php" />
+        <option value="$PROJECT_DIR$/2018624/file_mode.php" />
+        <option value="$PROJECT_DIR$/2018624/file1.php" />
+        <option value="$PROJECT_DIR$/2018624/file2.php" />
+        <option value="$PROJECT_DIR$/2018624/data.txt" />
+        <option value="$PROJECT_DIR$/2018624/form action.php" />
+        <option value="$PROJECT_DIR$/2018624/form.html" />
+        <option value="$PROJECT_DIR$/2018624/post.php" />
+        <option value="$PROJECT_DIR$/2018624/language/jp.php" />
+        <option value="$PROJECT_DIR$/2018624/language/zh_CN.php" />
+        <option value="$PROJECT_DIR$/2018624/response.php" />
+        <option value="$PROJECT_DIR$/2018624/respo.php" />
+        <option value="$PROJECT_DIR$/2018624/cache.php" />
+        <option value="$PROJECT_DIR$/2018622/mvc_demo20/Framework/tool/Captcha.class.php" />
+        <option value="$PROJECT_DIR$/2018624/down.php" />
       </list>
     </option>
   </component>
@@ -148,9 +175,9 @@
       <path value="$PROJECT_DIR$/../php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="957" />
-    <option name="y" value="286" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="352" />
+    <option name="y" value="209" />
     <option name="width" value="1400" />
     <option name="height" value="963" />
   </component>
@@ -172,7 +199,20 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="2018623" type="462c0819:PsiDirectoryNode" />
+              <item name="2018620" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="2018620" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc_demo19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="2018620" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc_demo19" type="462c0819:PsiDirectoryNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,16 +230,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wamp\www\2018611\mvc_demo11\Application\back\Controllers" />
-      <recent name="E:\wamp\www\2018605" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\2018624" />
       <recent name="E:\wamp\www\2018622" />
       <recent name="E:\wamp\www\2018619\mvc_demo18\Framework" />
       <recent name="E:\xampp\php\www\2018613" />
       <recent name="E:\wamp\www\2018611" />
-      <recent name="E:\wamp\www\2018610" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\2018611\mvc_demo11\Application\back\Controllers" />
+      <recent name="E:\wamp\www\2018605" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,30 +371,31 @@
       <workItem from="1529462558324" duration="16515000" />
       <workItem from="1529549032661" duration="6300000" />
       <workItem from="1529643920081" duration="14512000" />
-      <workItem from="1529719831746" duration="17398000" />
+      <workItem from="1529719831746" duration="17998000" />
+      <workItem from="1529807417799" duration="11749000" />
+      <workItem from="1529894822572" duration="4480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354058000" />
+    <option name="totallyTimeSpent" value="370887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="957" y="286" width="1400" height="963" extended-state="0" />
+    <frame x="352" y="209" width="1400" height="963" extended-state="1" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3313433" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="15" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5022388" side_tool="true" visible="true" weight="0.3288835" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="运行" order="11" sideWeight="0.4977612" weight="0.32946634" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32089552" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="找到" order="14" sideWeight="0.4977612" weight="0.3288835" />
       <window_info anchor="right" id="数据库" order="9" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -368,6 +409,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="bottom" id="找到" order="14" sideWeight="0.4977612" weight="0.3288835" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,94 +431,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/ManageController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018619/mvc_demo18/Application/back/Controllers/AdminController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/bule.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/imagecreate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/code.php" />
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/a.php" />
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/tool/captcha/Captcha.class1.php" />
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/tool/captcha/Captcha.class.php" />
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/tool/Captcha.class1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/code.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Application/back/Models/AdminModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Application/back/Views/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="57" column="85" lean-forward="true" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018621/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018621/upload.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Application/back/Controllers/PlatformController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Application/back/Controllers/AdminController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018621/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -562,9 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018622/mvc_demo20/Framework/tool/Captcha.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018622/mvc_demo20/Application/back/Controllers/PlatformController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-499" />
@@ -612,17 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#2;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3738#3744#1" expanded="true" />
-            <element signature="e#5032#5038#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,31 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018623/file_func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018623/dir_func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2018623/file_handle_func.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018623/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -674,6 +593,148 @@
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018623/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018623/dir_func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018623/file_func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/file_pos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/file_mode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/file2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/file1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/language/ja.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/language/zh_CN.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/respo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018622/mvc_demo20/Framework/tool/Captcha.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018624/down.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/MySQLDB.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/BaseModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018620/mvc_demo19/Framework/ModelFactory.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
