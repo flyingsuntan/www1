@@ -34,9 +34,9 @@ class Framework{
         define("UPLOAD_PATH" , PUBLIC_PATH . 'uploads' . DS);
 
         //获取参数p、c、a, index.php?p=admin&c=goods&a=add
-        define("PLATFORM" , isset($_GET['p']) ? $_GET['p'] : "admin");
-        define("CONTROLLER" , isset($_GET['c']) ? ucfirst($_GET['c']) : "Login");
-        define("ACTION" , isset($_GET['a']) ? $_GET['a'] : "login");
+        define("PLATFORM" , isset($_GET['p']) ? $_GET['p'] : "home");
+        define("CONTROLLER" , isset($_GET['c']) ? ucfirst($_GET['c']) : "index");
+        define("ACTION" , isset($_GET['a']) ? $_GET['a'] : "index");
         define("CUR_CONTROLLER_PATH" , CONTROLLER_PATH . PLATFORM . DS );
         define("CUR_VIEW_PATH" , VIEW_PATH . PLATFORM . DS );
 

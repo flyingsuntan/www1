@@ -14,7 +14,12 @@ class TypeModel extends Model{
 
     //分页获取商品类型
     public function getPageTypes($offset,$pagesize){
-        $sql = "select * from {$this->table} order by type_id limit $offset,$pagesize";
+        $sql = "select a.*,count(attr_name) as num from {$this->table} as a 
+				left join cz_attribute as b
+				on a.type_id = b.type_id
+				group by a.type_id
+				ORDER BY a.type_id DESC
+		        LIMIT $offset,$pagesize";
 
         return $this->db->getAll($sql);
     }

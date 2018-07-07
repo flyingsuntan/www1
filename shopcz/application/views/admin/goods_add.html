@@ -31,7 +31,7 @@
 
     <!-- tab body -->
     <div id="tabbody-div">
-      <form enctype="multipart/form-data" action="" method="post" name="theForm"> 
+      <form enctype="multipart/form-data" action="index.php?p=admin&c=goods&a=insert" method="post" name="theForm">
         <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
 		 
 		 <!-- 通用信息 -->
@@ -51,20 +51,12 @@
 				<td>
 					<select name="cat_id" onchange="hideCatDiv()">
 						<option value="0">请选择...</option>
-						<option value="1">手机类型</option>
-						<option value="5">&nbsp;&nbsp;&nbsp;&nbsp;双模手机</option>
-						<option value="2">&nbsp;&nbsp;&nbsp;&nbsp;CDMA手机</option>
-						<option value="3" selected="ture">&nbsp;&nbsp;&nbsp;&nbsp;GSM手机</option>
-						<option value="4">&nbsp;&nbsp;&nbsp;&nbsp;3G手机</option>
-						<option value="12">充值卡</option>
-						<option value="15">&nbsp;&nbsp;&nbsp;&nbsp;联通手机充值卡</option>
-						<option value="13">&nbsp;&nbsp;&nbsp;&nbsp;小灵通/固话充值卡</option>
-						<option value="14">&nbsp;&nbsp;&nbsp;&nbsp;移动手机充值卡</option>
-						<option value="6">手机配件</option>
-						<option value="8">&nbsp;&nbsp;&nbsp;&nbsp;耳机</option>
-						<option value="9">&nbsp;&nbsp;&nbsp;&nbsp;电池</option>
-						<option value="11">&nbsp;&nbsp;&nbsp;&nbsp;读卡器和内存卡</option>
-						<option value="7">&nbsp;&nbsp;&nbsp;&nbsp;充电器</option>
+						<?php foreach($cats as $cat):?>
+
+						<option value="<?php echo $cat['cat_id']?>">
+							<?php echo str_repeat("&nbsp;&nbsp;",$cat['level']); ?>
+							<?php echo $cat['cat_name']?></option>
+						<?php endforeach;?>
 					</select>
                  </td>
 			</tr>
@@ -73,17 +65,10 @@
 				<td>
 					<select name="brand_id" onchange="hideBrandDiv()">
 						<option value="0">请选择...</option>
-						<option value="1" selected="">诺基亚</option>
-						<option value="10">金立</option>
-						<option value="9">联想</option>
-						<option value="8">LG</option>
-						<option value="7">索爱</option>
-						<option value="6">三星</option>
-						<option value="5">夏新</option>
-						<option value="4">飞利浦</option>
-						<option value="3">多普达</option>
-						<option value="2">摩托罗拉</option>
-						<option value="11">  恒基伟业</option>
+						<?php foreach($brands as $brand):?>
+
+						<option value="<?php echo $brand['brand_id']?>" selected=""><?php echo $brand['brand_name']?></option>
+						<?php endforeach;?>
 					</select>
 				</td>
 			</tr>
@@ -204,25 +189,21 @@
 				<tr>
 					<td class="label">商品类型：</td>
 					<td>
-						<select name="type_id" onchange="getAttrList(32)">
+						<select name="type_id" onchange="getAttrList(this.value)">
 							<option value="0">请选择商品类型</option>
-							<option value="1">书</option>
-							<option value="2">音乐</option>
-							<option value="3">电影</option>
-							<option value="4">手机</option>
-							<option value="5">笔记本电脑</option>
-							<option value="6">数码相机</option>
-							<option value="7">数码摄像机</option>
-							<option value="8">化妆品</option>
-							<option value="9" selected="true">精品手机</option>
-							<option value="10">我的商品</option>                
+							<?php foreach($types as $type):?>
+							<option value="<?php echo $type['type_id'];?>"><?php echo $type['type_name'];?></option>
+
+							<?php endforeach;?>
 						</select><br>
 						<span class="notice-span" style="display:block" id="noticeGoodsType">请选择商品的所属类型，进而完善此商品的属性</span>
 					</td>
 				</tr>
 				<tr>
 				<td id="tbody-goodsAttr" colspan="2" style="padding:0">
+					<!--
 					<table width='100%' id='attrTable'>
+
 						<tbody>
 							<tr>
 								<td class='label'>上市日期</td>
@@ -630,6 +611,7 @@
 								</tr>
 							</tbody>
 						</table>
+						-->
 					</td>
 			 </tr>
         </tbody>
@@ -668,7 +650,8 @@
       </form>
     </div>
 </div>
-
+<!--创建iframe-->
+<iframe src="" frameborder="0" width="0" height="0" id="ifr"></iframe>
 
 <div id="footer">
 	版权所有 &copy; 2012-2013 传智播客 - PHP培训 - 
@@ -748,6 +731,11 @@
       }
       return true;
   }
+  //使用iframe动态获取属性
+	function getAttrList(type_id) {
+		var ifr = document.getElementById('ifr');
+		ifr.src = "index.php?p=admin&c=attribute&a=getAttrs&type_id="+type_id;
+    }
 
 </script>
 </body>

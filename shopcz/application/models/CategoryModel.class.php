@@ -42,4 +42,28 @@ class CategoryModel extends Model{
         return $ids;
 
     }
+
+    //将平行的二维数组，转成包含关系的多维数组
+    public function child($arr,$pid = 0){
+        $res = array();
+        foreach ($arr as $v) {
+            if ($v['parent_id'] == $pid) {
+                //找到了，继续查找其后代节点
+                //$temp = $this->child($arr,$v['cat_id']);
+                //将找到的结果作为当前数组的一个元素来保存，其下标是child
+                //$v['child'] = $temp;
+                $v['child'] = $this->child($arr,$v['cat_id']);
+                $res[] = $v;
+            }
+        }
+        return $res;
+    }
+    //获取前台分类
+    public function frontCats(){
+        $sql = "select * from {$this->table} ";
+        $cats = $this->db->getAll($sql);
+
+
+        return $this->child($cats);
+    }
 }

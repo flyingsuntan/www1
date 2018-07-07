@@ -75,4 +75,22 @@ class AttributeController extends BaseController {
     }
     public function updateAction(){}
     public function deleteAction(){}
+    //动态获取指定类型下的所有属性
+    public function getAttrsAction(){
+        //获取type_id
+        $type_id = $_GET['type_id'] + 0;
+
+        //调用模型获取该类型下所有属性所构成的表单
+        $attrModel = new AttributeModel('attribute');
+        $attrs = $attrModel->getAttrsForm($type_id);
+        echo <<<STR
+        <script type="text/javascript">
+        window.parent.document.getElementById("tbody-goodsAttr").innerHTML = "$attrs";
+        </script>
+
+STR;
+
+
+
+    }
 }

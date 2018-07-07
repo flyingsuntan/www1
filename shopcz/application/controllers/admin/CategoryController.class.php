@@ -42,7 +42,7 @@ class CategoryController extends BaseController {
         //3.调用模型完成入库并给出提示
         $categoryModel = new CategoryModel('category');
         if($categoryModel->insert($data)){
-            $this->jump('index.php?p=admin&c=category&a=index','添加分类成功',2);
+            $this->jump('index.php?p=admin&c=category&a=index','添加分类成功',0);
         }else{
             $this->jump('index.php?p=admin&c=category&a=add','添加分类失败',3);
         }
