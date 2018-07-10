@@ -1,0 +1,90 @@
+<layout name="layout" />
+<!-- $Id: category_list.htm 17019 2010-01-29 10:10:34Z liuhui $ -->
+<form method="post" action="" name="listForm">
+    <input type="hidden" name="pid" value="">
+    <div class="list-div" id="listDiv">
+        <table width="100%" cellspacing="1" cellpadding="2" id="list-table">
+            <tr>
+                <th>分类名称</th>
+                <th>操作</th>
+            </tr>
+            <?php foreach ($data as $l => $v):?>
+            <tr align="center" class="<?php echo $v['level']; ?>" id="<?php echo $v['level']; ?>_<?php echo $v['cat_id']; ?>">
+            <td align="left" class="first-cell">
+                <?php echo str_repeat("&nbsp;&nbsp;&nbsp;",$v['level']); ?>
+                <img src="__PUBLIC__/Admin/images/menu_minus.gif" id="icon_<?php echo $v['level']; ?>_<?php echo $v['cat_id']; ?>" width="9" height="9" border="0" style="margin-left:0em" onclick="rowClicked(this)">
+                <span><a href="goods.php?act=list "><?php echo $v['cat_name']; ?></a></span>
+            </td>
+                <td width="30%" align="center">
+                <a href="<?php echo U('edit?id='.$v['id']);?>">编辑</a> |
+                <a onclick="return confirm('确定要删除吗？')" href="<?php echo U('delete?id='.$v['id']);?>" title="移除">移除</a>
+                </td>
+            </tr>
+            <?php endforeach;?>
+        </table>
+    </div>
+</form>
+<script>
+    /**
+     * 折叠分类列表
+     */
+    var imgPlus = new Image();
+    imgPlus.src = "__PUBLIC__/Admin/images/menu_plus.gif";
+
+    function rowClicked(obj)
+    {
+        // 当前图像
+        img = obj;
+        // 取得上二级tr>td>img对象
+        obj = obj.parentNode.parentNode;
+        // 整个分类列表表格
+        var tbl = document.getElementById("list-table");
+        // 当前分类级别
+        var lvl = parseInt(obj.className);
+        // 是否找到元素
+        var fnd = false;
+        var sub_display = img.src.indexOf('menu_minus.gif') > 0 ? 'none' : 'table-row' ;
+        // 遍历所有的分类
+        for (i = 0; i < tbl.rows.length; i++)
+        {
+            var row = tbl.rows[i];
+            if (row == obj)
+            {
+                // 找到当前行
+                fnd = true;
+                //document.getElementById('result').innerHTML += 'Find row at ' + i +"<br/>";
+            }
+            else
+            {
+                if (fnd == true)
+                {
+                    var cur = parseInt(row.className);
+                    var icon = 'icon_' + row.id;
+                    if (cur > lvl)
+                    {
+                        row.style.display = sub_display;
+                        if (sub_display != 'none')
+                        {
+                            var iconimg = document.getElementById(icon);
+                            iconimg.src = iconimg.src.replace('plus.gif', 'minus.gif');
+                        }
+                    }
+                    else
+                    {
+                        fnd = false;
+                        break;
+                    }
+                }
+            }
+        }
+
+        for (i = 0; i < obj.cells[0].childNodes.length; i++)
+        {
+            var imgObj = obj.cells[0].childNodes[i];
+            if (imgObj.tagName == "IMG" && imgObj.src != '__PUBLIC__/Admin//images/menu_arrow.gif')
+            {
+                imgObj.src = (imgObj.src == imgPlus.src) ? '__PUBLIC__/Admin/images/menu_minus.gif' : imgPlus.src;
+            }
+        }
+    }
+</script>

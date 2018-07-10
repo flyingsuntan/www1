@@ -2569,3 +2569,48 @@
 				ORDER BY a.type_id DESC
 		        LIMIT 3,3
 [2018-07-04 11:10:08]select count(*) from cz_goods_type
+[2018-07-10 17:20:24]set names utf8
+[2018-07-10 17:20:24]DESC cz_category
+[2018-07-10 17:20:24]select * from cz_category 
+[2018-07-10 17:20:24]set names utf8
+[2018-07-10 17:20:24]DESC cz_goods
+[2018-07-10 17:20:24]select goods_id,goods_name,shop_price,goods_img from cz_goods where is_best = 1 and is_onsale = 1 order by goods_id desc limit 4
+[2018-07-10 17:21:15]set names utf8
+[2018-07-10 17:21:15]DESC cz_admin
+[2018-07-10 17:21:15]select *from cz_admin where admin_name = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' limit 1
+[2018-07-10 17:21:15]set names utf8
+[2018-07-10 17:21:15]DESC cz_admin
+[2018-07-10 17:21:15]select * from cz_admin
+[2018-07-10 17:21:19]set names utf8
+[2018-07-10 17:21:19]DESC cz_category
+[2018-07-10 17:21:19]select * from cz_category
+[2018-07-10 17:21:19]set names utf8
+[2018-07-10 17:21:19]DESC cz_brand
+[2018-07-10 17:21:19]select * from cz_brand
+[2018-07-10 17:21:19]set names utf8
+[2018-07-10 17:21:19]DESC cz_goods_type
+[2018-07-10 17:21:19]select * from cz_goods_type
+[2018-07-10 17:21:23]set names utf8
+[2018-07-10 17:21:23]DESC cz_attribute
+[2018-07-10 17:21:23]select *from cz_attribute where type_id =1
+[2018-07-10 17:21:24]set names utf8
+[2018-07-10 17:21:24]DESC cz_attribute
+[2018-07-10 17:21:24]select *from cz_attribute where type_id =4
+[2018-07-10 17:21:26]set names utf8
+[2018-07-10 17:21:26]DESC cz_attribute
+[2018-07-10 17:21:26]select *from cz_attribute where type_id =5
+[2018-07-10 17:21:28]set names utf8
+[2018-07-10 17:21:28]DESC cz_attribute
+[2018-07-10 17:21:28]select *from cz_attribute where type_id =2
+[2018-07-10 17:22:58]set names utf8
+[2018-07-10 17:22:58]DESC cz_attribute
+[2018-07-10 17:22:58]select *from cz_attribute where type_id =0
+[2018-07-10 17:34:31]set names utf8
+[2018-07-10 17:34:31]DESC cz_goods_type
+[2018-07-10 17:34:31]select a.*,count(attr_name) as num from cz_goods_type as a 
+				left join cz_attribute as b
+				on a.type_id = b.type_id
+				group by a.type_id
+				ORDER BY a.type_id DESC
+		        LIMIT 0,3
+[2018-07-10 17:34:31]select count(*) from cz_goods_type
