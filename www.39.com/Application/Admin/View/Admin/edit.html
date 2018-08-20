@@ -1,0 +1,51 @@
+<layout name="layout" />
+
+<div class="main-div">
+    <form name="main_form" method="POST" action="__SELF__" enctype="multipart/form-data" >
+    	<input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">用户名：</td>
+                <td>
+                    <input  type="text" name="username" value="<?php echo $data['username']; ?>" />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">角色：</td>
+                <td>
+                    <?php foreach ($roleData as $k => $v) :
+                     if(strpos(','.$roleId.',',','.$v['id'].',') !== false)
+                        $check = 'checked="checked"';
+                    else
+                        $check="";
+                    ?>
+                    <input type="checkbox" name="role_id[]" value="<?php echo $v['id']?>" <?php echo $check;?> /><?php echo $v['role_name']?>
+                    <?php endforeach;?>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">用户名：</td>
+                <td>
+                    <input  type="text" name="password" value="" />密码留空，代表不修改密码
+                </td>
+            </tr>
+            <tr>
+                <td class="label">确认密码：</td>
+                <td>
+                    <input type="password" size="25" name="cpassword" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="99" align="center">
+                    <input type="submit" class="button" value=" 确定 " />
+                    <input type="reset" class="button" value=" 重置 " />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+<script>
+</script>

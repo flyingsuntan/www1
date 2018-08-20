@@ -1,0 +1,22 @@
+[Sat Jul 28 14:18:50.167 2018] [25808] accepting connections
+[Sat Jul 28 14:38:52.537 2018] [25808] shutdown complete
+[Sat Jul 28 14:38:53.873 2018] [24952] accepting connections
+[Sat Jul 28 15:11:52.332 2018] [24952] shutdown complete
+[Sat Jul 28 15:14:07.244 2018] [26452] accepting connections
+[Sat Jul 28 15:19:12.611 2018] [26452] shutdown complete
+[Sat Jul 28 15:20:50.441 2018] [17536] accepting connections
+[Sat Jul 28 15:37:47.475 2018] [17536] rotating index 'goods': success
+[Sat Jul 28 15:37:47.475 2018] [17536] rotating finished
+[Sat Jul 28 15:37:47.525 2018] [17536] rotating indices (seamless=0)
+[Sat Jul 28 17:03:19.747 2018] [17536] rotating index 'goods': success
+[Sat Jul 28 17:03:19.747 2018] [17536] rotating finished
+[Sat Jul 28 17:03:19.798 2018] [17536] rotating indices (seamless=0)
+[Sat Jul 28 18:09:34.680 2018] [17536] rotating index 'goods': success
+[Sat Jul 28 18:09:34.680 2018] [17536] rotating finished
+[Sat Jul 28 18:09:34.731 2018] [17536] rotating indices (seamless=0)
+[Tue Jul 31 19:55:45.103 2018] [ 3328] accepting connections
+[Sat Aug  4 21:43:28.209 2018] [ 3696] accepting connections
+[Mon Aug  6 14:52:43.106 2018] [ 3360] accepting connections
+[Mon Aug  6 14:59:11.159 2018] [ 3512] accepting connections
+[Wed Aug 15 16:44:10.120 2018] [ 3532] accepting connections
+[Wed Aug 15 16:46:19.135 2018] [ 3284] accepting connections

@@ -1,4 +1,21 @@
 <?php
+/*
+ * 从当前URL中去掉某个参数之后的URL
+ */
+function filterUrl($param){
+    //先去出当前的URL地址
+    $url = $_SERVER['PHP_SELF'];
+    $re = "/\/$param\/[^\/]+/";
+    //echo $re;
+    echo  preg_replace($re,'',$url);
+}
+
+/*
+ * 为一个定单生成支付宝支付按钮
+ */
+function makeAlipayBtn($orderId,$btnName='去支付宝支付'){
+    return require ('./alipay/alipayapi.php');
+}
 //取出所有的会员级别
 function memberLevel($tableName,$valueFieldName,$textFieldName){
     $model = D($tableName);
